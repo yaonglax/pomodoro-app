@@ -1,0 +1,19 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    width: 5rem;
+    height: calc(100vh - 4em);
+    gap: 8rem;
+    border-right: 1px solid black;
+}
+
+.sidebar__button {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
